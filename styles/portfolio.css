@@ -76,9 +76,10 @@ nav a {
 /* header related styles */
 .header {
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
+
 }
 
 .banner {
@@ -236,14 +237,16 @@ footer {
 .footer-column {
     width: 50%;
 }
-.footer-title{
-margin-bottom: 25px;
+
+.footer-title {
+    margin-bottom: 25px;
 }
-.footer-description{
+
+.footer-description {
     margin-bottom: 80px;
 }
 
-.social-links a{
+.social-links a {
     margin-left: 25px;
 }
 
