@@ -223,3 +223,10 @@ main {
     text-align: center;
     margin-top: 50px;
 }
+/* footer section related styles */
+footer{
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 70px;
+}
